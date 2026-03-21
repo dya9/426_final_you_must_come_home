@@ -1,0 +1,10 @@
+schedule and delvierables
+    Energy Drink Asset Spawner -- Tues 3/11 by 5pm (completed: 2 hrs)
+    User Health Bar -- Tues 3/11 by 5pm (completed: 4 hrs)
+    Movement Script -- Tues 3/17 by 5pm (completed: 2 hrs)
+    Fix the bug for the end of the map -- Tues 3/24 by 8pm (estimate: 2hrs)
+    AI for chase scene -- Fri 3/27 by 8pm (estimate: 1 hour)
+    Search assets for character and additional required -- Tues 3/24 by 8pm(estimate: 0.5hr)
+    Asset movement for enemy  -- Tues 3/31 by 8pm (estimate: 0.5 hr)
+    Research on mirror maze -- Wed 4/1 by 7pm (estimate: 0.5hr)
+    Create mirror maze if heart attack is caused -- Sun 4/11 by 9pm (estimate: 3.5hrs)
