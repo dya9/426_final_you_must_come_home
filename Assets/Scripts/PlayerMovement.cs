@@ -84,7 +84,6 @@
 //         }
 //     }
 // }
-
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -98,13 +97,18 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         
-        // Ensure constraints are set via code just in case
+        // 1. Lock Rotation on X and Z so the player stays upright
+        // Lock Position Y is UNCHECKED in Inspector to allow natural physics
         rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
     }
 
     void FixedUpdate()
     {
-        // 1. Smooth Rotation
+        // 2. THE FIX: Manually kill any spinning energy caused by collisions
+        // This prevents the "uncontrollable spinning" even if a collision is violent.
+        rb.angularVelocity = Vector3.zero;
+
+        // 3. Smooth Rotation
         float rotationInput = 0;
         if (Input.GetKey(KeyCode.D)) rotationInput = 1;
         else if (Input.GetKey(KeyCode.A)) rotationInput = -1;
@@ -113,12 +117,12 @@ public class PlayerMovement : MonoBehaviour
         Quaternion turnRotation = Quaternion.Euler(0f, turn, 0f);
         rb.MoveRotation(rb.rotation * turnRotation);
 
-        // 2. Direct Position Movement
+        // 4. Direct Position Movement
         float moveInput = 0;
         if (Input.GetKey(KeyCode.W)) moveInput = 1;
         else if (Input.GetKey(KeyCode.S)) moveInput = -1;
 
-        // MovePosition is generally more stable for player controllers than AddForce
+        // MovePosition provides more stability than AddForce for character movement
         Vector3 movement = transform.forward * moveInput * speed * Time.fixedDeltaTime;
         rb.MovePosition(rb.position + movement);
     }
