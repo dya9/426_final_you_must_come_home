@@ -18,7 +18,6 @@ public class DrinkPromptUI : MonoBehaviour
     }
 
     public void ShowPrompt(energyDrink drink)
-
 {
     currentDrink = drink;
     promptPanel.SetActive(true);
