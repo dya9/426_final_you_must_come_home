@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Sophmore.unity
     guid: 886639c45805c48f6a958fb427d634dc
   - enabled: 1
+    path: Assets/Scenes/Death Screen.unity
+    guid: 00724a6d1ea754658a56a20297ac4048
+  - enabled: 1
     path: Assets/Scenes/StartScene.unity
     guid: 2150acc54518c477c879f20ef1acf595
   m_configObjects:
