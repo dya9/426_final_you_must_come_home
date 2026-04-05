@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "you_must_come_home.slnx"
+    "dotnet.defaultSolution": "426_final_you_must_come_home.slnx"
 }
