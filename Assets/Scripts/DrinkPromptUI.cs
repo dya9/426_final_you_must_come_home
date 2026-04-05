@@ -1,43 +1,43 @@
-using UnityEngine;
-using UnityEngine.UI;
+// using UnityEngine;
+// using UnityEngine.UI;
 
-public class DrinkPromptUI : MonoBehaviour
-{
-    public static DrinkPromptUI Instance;
+// public class DrinkPromptUI : MonoBehaviour
+// {
+//     public static DrinkPromptUI Instance;
 
-    public GameObject promptPanel;
-    public Button drinkButton;
-    public Button leaveButton;
+//     public GameObject promptPanel;
+//     public Button drinkButton;
+//     public Button leaveButton;
 
-    private energyDrink currentDrink;
+//     private energyDrink currentDrink;
 
-    void Awake()
-    {
-        Instance = this;
-        promptPanel.SetActive(false);
-    }
+//     void Awake()
+//     {
+//         Instance = this;
+//         promptPanel.SetActive(false);
+//     }
 
-    public void ShowPrompt(energyDrink drink)
-{
-    currentDrink = drink;
-    promptPanel.SetActive(true);
+//     public void ShowPrompt(energyDrink drink)
+// {
+//     currentDrink = drink;
+//     promptPanel.SetActive(true);
 
-    drinkButton.onClick.RemoveAllListeners();
-    leaveButton.onClick.RemoveAllListeners();
+//     drinkButton.onClick.RemoveAllListeners();
+//     leaveButton.onClick.RemoveAllListeners();
 
-    drinkButton.onClick.AddListener(() => currentDrink?.Consume());
+//     drinkButton.onClick.AddListener(() => currentDrink?.Consume());
     
-    leaveButton.onClick.AddListener(() => {
-        HidePrompt(); // Just hide UI, drink stays in the world
-    });
-}
+//     leaveButton.onClick.AddListener(() => {
+//         HidePrompt(); // Just hide UI, drink stays in the world
+//     });
+// }
 
-    public void HidePrompt()
-    {
-        promptPanel.SetActive(false);
-        currentDrink = null;
-    }
-}
+//     public void HidePrompt()
+//     {
+//         promptPanel.SetActive(false);
+//         currentDrink = null;
+//     }
+// }
 using UnityEngine;
 using UnityEngine.UI;
 
