@@ -39,3 +39,4 @@ public class PlayerMovement : MonoBehaviour
             rb.linearVelocity = rb.linearVelocity.normalized * speed;
     }
 }
+
