@@ -12,7 +12,6 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        rb.freezeRotation = true;
     }
 
     void Update()
@@ -26,8 +25,6 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        // float moveInput = Input.GetKey(KeyCode.W) ? 1f : Input.GetKey(KeyCode.S) ? -1f : 0f;
-        // rb.linearVelocity = transform.forward * moveInput * speed + Vector3.up * rb.linearVelocity.y;
         // Use FixedUpdate for physics-based movement
         if (Input.GetKey(KeyCode.W))
             rb.AddForce(transform.forward * speed, ForceMode.Acceleration);
@@ -39,4 +36,3 @@ public class PlayerMovement : MonoBehaviour
             rb.linearVelocity = rb.linearVelocity.normalized * speed;
     }
 }
-

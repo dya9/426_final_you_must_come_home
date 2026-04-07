@@ -10718,7 +10718,6 @@ MonoBehaviour:
   drainRate: 2
   energyDrinkBoost: 30
   maxDrinksBeforeHeartAttack: 4
-  maxStrikes: 4
   healthSlider: {fileID: 467940670}
   fillImage: {fileID: 782939858}
   statusText: {fileID: 488579012}
@@ -11686,7 +11685,6 @@ MonoBehaviour:
   drainRate: 2
   energyDrinkBoost: 30
   maxDrinksBeforeHeartAttack: 4
-  maxStrikes: 4
   healthSlider: {fileID: 467940670}
   fillImage: {fileID: 782939858}
   statusText: {fileID: 488579012}

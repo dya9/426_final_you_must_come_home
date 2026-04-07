@@ -18,19 +18,19 @@ public class DrinkPromptUI : MonoBehaviour
     }
 
     public void ShowPrompt(energyDrink drink)
-{
-    currentDrink = drink;
-    promptPanel.SetActive(true);
+    {
+        currentDrink = drink;
+        promptPanel.SetActive(true);
 
-    drinkButton.onClick.RemoveAllListeners();
-    leaveButton.onClick.RemoveAllListeners();
+        drinkButton.onClick.RemoveAllListeners();
+        leaveButton.onClick.RemoveAllListeners();
 
-    drinkButton.onClick.AddListener(() => currentDrink?.Consume());
-    
-    leaveButton.onClick.AddListener(() => {
-        HidePrompt(); // Just hide UI, drink stays in the world
-    });
-}
+        drinkButton.onClick.AddListener(() => currentDrink?.Consume());
+        leaveButton.onClick.AddListener(() => {
+            promptPanel.SetActive(false);
+            // Drink will be destroyed when player exits trigger
+        });
+    }
 
     public void HidePrompt()
     {

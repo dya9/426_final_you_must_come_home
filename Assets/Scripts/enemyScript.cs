@@ -150,7 +150,7 @@ public class enemyScript : MonoBehaviour
         // Call the HealthManager on the player to count a strike
         HealthManager health = player.GetComponent<HealthManager>();
         if (health != null) {
-            health.TakeDamage();
+            health.TakeDamage(10f);
         }
     }
 }

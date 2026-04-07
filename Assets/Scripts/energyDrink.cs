@@ -6,7 +6,6 @@ public class energyDrink : MonoBehaviour
     // The player MUST decide immediately — no pickup to inventory
     public System.Action OnDestroyed;
     private bool playerInRange = false;
-    private bool isConsumed = false;
     private HealthManager healthManager;
 
     void Update()
@@ -35,19 +34,14 @@ public class energyDrink : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = false;
-            if (!isConsumed)
-            {
-                DrinkPromptUI.Instance?.HidePrompt();
-                // Don't destroy — let it stay so player can come back
-                // If you WANT it to disappear on exit, keep the Destroy below
-                // Destroy(gameObject);
-            }
+            // If player walked away = they chose to LEAVE it
+            DrinkPromptUI.Instance?.HidePrompt();
+            Destroy(gameObject); // Drink is gone — no coming back
         }
     }
 
     public void Consume()
     {
-        if (isConsumed) return;
         healthManager?.DrinkEnergy();
         DrinkPromptUI.Instance?.HidePrompt();
         Destroy(gameObject);
