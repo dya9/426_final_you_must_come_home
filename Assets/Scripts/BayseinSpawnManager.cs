@@ -32,6 +32,7 @@ public class BayesianSpawnManager : MonoBehaviour
     private const float FAR_DISTANCE_THRESHOLD = 20f;    // Beyond 20 units = high probability
     private const float LONG_TIME_THRESHOLD = 15f;       // 15 seconds without drink = high probability
 
+
     void Update()
     {
         timeSinceLastDrink += Time.deltaTime;
