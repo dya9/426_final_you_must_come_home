@@ -1,3 +1,4 @@
+//using System;
 using UnityEngine;
 
 public class DrinkSpawn : MonoBehaviour
@@ -17,7 +18,7 @@ public class DrinkSpawn : MonoBehaviour
 
     void ScheduleNextSpawn()
     {
-        if (this == null || !gameObject.activeInHierarchy) return; 
+        if (this == null || !gameObject.activeInHierarchy) return;
         float delay = Random.Range(minSpawnTime, maxSpawnTime);
         Invoke(nameof(SpawnDrink), delay);
     }
@@ -32,15 +33,15 @@ public class DrinkSpawn : MonoBehaviour
 
         Transform spawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
         GameObject drink = Instantiate(energyDrinkPrefab, spawnPoint.position, Quaternion.identity);
-        
+
         // Track count
         currentDrinks++;
         drink.GetComponent<energyDrink>().OnDestroyed += () => {
             currentDrinks--;
             if (this != null)
-            ScheduleNextSpawn();
+                ScheduleNextSpawn();
         };
     }
 
-   
+
 }

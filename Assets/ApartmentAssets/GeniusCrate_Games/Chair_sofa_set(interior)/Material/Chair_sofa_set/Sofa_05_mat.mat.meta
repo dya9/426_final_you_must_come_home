@@ -1,11 +1,5 @@
 fileFormatVersion: 2
 guid: 573fd168d260f854791e74fb0b60b310
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
   productId: 263004
@@ -13,3 +7,9 @@ AssetOrigin:
   packageVersion: 1.0.0
   assetPath: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Material/Chair_sofa_set/Sofa_05_mat.mat
   uploadId: 616539
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
