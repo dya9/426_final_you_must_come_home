@@ -1,5 +1,5 @@
 using UnityEngine;
-
+ 
 public class energyDrink : MonoBehaviour
 {
     // This gets triggered when player walks into the drink's collider
@@ -29,7 +29,7 @@ public class energyDrink : MonoBehaviour
             DrinkPromptUI.Instance?.ShowPrompt(this);
         }
     }
-
+ 
     void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -44,7 +44,10 @@ public class energyDrink : MonoBehaviour
             }
         }
     }
-
+ 
+    // ── Player Choices ────────────────────────────────────────────────────────
+ 
+    // Called when player clicks "Drink"
     public void Consume()
     {
         if (isConsumed) return;
