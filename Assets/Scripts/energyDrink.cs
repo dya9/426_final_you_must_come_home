@@ -8,25 +8,7 @@ public class energyDrink : MonoBehaviour
     private AudioSource audioSource;
     private HealthManager healthManager;
     private bool choiceMade = false;
- 
-    // ── Arrow Pointer Lifecycle ───────────────────────────────────────────────
- 
-    void OnEnable()
-    {
-        if (!ArrowPointer.ActiveDrinks.Contains(this))
-            ArrowPointer.ActiveDrinks.Add(this);
-    }
- 
-    void OnDisable()
-    {
-        ArrowPointer.ActiveDrinks.Remove(this);
-    }
- 
-    void OnDestroy()
-    {
-        ArrowPointer.ActiveDrinks.Remove(this);
-        OnDestroyed?.Invoke();
-    }
+    private bool playerInRange = false;
  
     // ── Init ──────────────────────────────────────────────────────────────────
  
@@ -39,11 +21,23 @@ public class energyDrink : MonoBehaviour
             Debug.LogError("[energyDrink] No HealthManager found in scene!");
     }
  
+    // ── Input ─────────────────────────────────────────────────────────────────
+ 
+    void Update()
+    {
+        if (playerInRange && !choiceMade && Input.GetKeyDown(KeyCode.X))
+        {
+            Consume();
+        }
+    }
+ 
     // ── Trigger ───────────────────────────────────────────────────────────────
  
     void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("Player")) return;
+ 
+        playerInRange = true;
  
         // Re-fetch in case Start() missed it
         if (healthManager == null)
@@ -56,13 +50,15 @@ public class energyDrink : MonoBehaviour
     {
         if (!other.CompareTag("Player")) return;
  
+        playerInRange = false;
+ 
         if (!choiceMade)
             DrinkPromptUI.Instance?.HidePrompt();
     }
  
     // ── Player Choices ────────────────────────────────────────────────────────
  
-    // Called when player clicks "Drink"
+    // Called when player clicks "Drink" or presses X
     public void Consume()
     {
         if (choiceMade) return;

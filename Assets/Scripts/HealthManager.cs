@@ -12,7 +12,10 @@ public class HealthManager : MonoBehaviour
  
     public float drainRate = 2f;
     public float energyDrinkBoost = 30f;
-    public int maxDrinksBeforeHeartAttack = 4;
+ 
+    [Header("Heart Attack Settings")]
+    // Player dies if health reaches or exceeds this value (i.e. too many drinks)
+    public float heartAttackThreshold = 95f;
  
     [Header("Strike Settings")]
     public int maxStrikes = 4;
@@ -27,13 +30,15 @@ public class HealthManager : MonoBehaviour
     public Color healthyColor = Color.green;
     public Color warningColor = Color.yellow;
     public Color dangerColor = Color.red;
+    public Color overloadColor = new Color(1f, 0f, 0.5f); // hot pink — too wired
  
     private int drinksConsumed = 0;
     private bool isDead = false;
  
     void Start()
     {
-        currentHealth = maxHealth;
+        // Start at 50% health
+        currentHealth = maxHealth * 0.5f;
  
         if (healthSlider == null)
         {
@@ -46,7 +51,6 @@ public class HealthManager : MonoBehaviour
         if (fillTransform != null)
         {
             fillImage = fillTransform.GetComponent<Image>();
-            // Make sure it's fully opaque
             if (fillImage != null)
             {
                 Color c = fillImage.color;
@@ -60,14 +64,13 @@ public class HealthManager : MonoBehaviour
             Debug.LogError("[HealthManager] Could not find 'Fill Area/Fill' inside Slider!");
         }
  
-        // Also check fillRect is assigned on the Slider itself
         if (healthSlider.fillRect == null)
             Debug.LogError("[HealthManager] Slider.fillRect is NULL! " +
                            "Drag the Fill object into the Slider's Fill Rect field in the Inspector.");
  
         healthSlider.minValue = 0f;
         healthSlider.maxValue = maxHealth;
-        healthSlider.value    = maxHealth;
+        healthSlider.value    = currentHealth;
  
         Debug.Log($"[HealthManager] Started — health:{currentHealth} slider:{healthSlider.value}");
         UpdateUI();
@@ -77,16 +80,22 @@ public class HealthManager : MonoBehaviour
     {
         if (isDead) return;
  
+        // Health drains over time
         currentHealth -= drainRate * Time.deltaTime;
-        currentHealth  = Mathf.Clamp(currentHealth, 0, maxHealth);
+        currentHealth  = Mathf.Clamp(currentHealth, 0f, maxHealth);
  
         if (healthSlider != null)
             healthSlider.value = currentHealth;
  
         UpdateFillColor();
  
-        if (currentHealth <= 0)
+        // Too little energy — microsleep
+        if (currentHealth <= 0f)
             TriggerMicrosleep();
+ 
+        // Too much energy — heart attack (in case boost pushed it over mid-frame)
+        if (currentHealth >= heartAttackThreshold)
+            TriggerHeartAttack();
     }
  
     public void TakeDamage()
@@ -101,20 +110,14 @@ public class HealthManager : MonoBehaviour
             TriggerCaughtGameOver();
     }
  
-   public bool DrinkEnergy()
+    public bool DrinkEnergy()
     {
         if (isDead) return false;
  
         drinksConsumed++;
         Debug.Log($"[HealthManager] DrinkEnergy() — drinks:{drinksConsumed} health before:{currentHealth}");
  
-        if (drinksConsumed >= maxDrinksBeforeHeartAttack)
-        {
-            TriggerHeartAttack();
-            return true;
-        }
- 
-        currentHealth = Mathf.Clamp(currentHealth + energyDrinkBoost, 0, maxHealth);
+        currentHealth = Mathf.Clamp(currentHealth + energyDrinkBoost, 0f, maxHealth);
  
         if (healthSlider != null)
         {
@@ -125,8 +128,15 @@ public class HealthManager : MonoBehaviour
  
         UpdateFillColor();
  
+        // Check immediately if the boost pushed health into heart attack range
+        if (currentHealth >= heartAttackThreshold)
+        {
+            TriggerHeartAttack();
+            return true;
+        }
+ 
         if (statusText != null)
-            statusText.text = $"Drank #{drinksConsumed} - feeling wired!";
+            statusText.text = $"Drank #{drinksConsumed} — feeling wired!";
  
         return true;
     }
@@ -137,13 +147,26 @@ public class HealthManager : MonoBehaviour
  
         float percent = currentHealth / maxHealth;
  
-        if (percent > 0.5f)
-            fillImage.color = Color.Lerp(warningColor, healthyColor, (percent - 0.5f) * 2f);
+        // Low  (0–25%)   → red danger
+        // Mid  (25–60%)  → yellow warning → green healthy
+        // High (75–100%) → green → pink overload (too much caffeine)
+        if (percent > 0.75f)
+            fillImage.color = Color.Lerp(healthyColor, overloadColor, (percent - 0.75f) * 4f);
+        else if (percent > 0.5f)
+            fillImage.color = Color.Lerp(warningColor, healthyColor, (percent - 0.5f) * 4f);
+        else if (percent > 0.25f)
+            fillImage.color = Color.Lerp(dangerColor, warningColor, (percent - 0.25f) * 4f);
         else
-            fillImage.color = Color.Lerp(dangerColor, warningColor, percent * 2f);
+            fillImage.color = dangerColor;
  
-        if (statusText != null && percent < 0.25f && !isDead && currentStrikes < maxStrikes)
-            statusText.text = "WARNING: Micro-sleep incoming...";
+        // Status text warnings
+        if (statusText != null && !isDead && currentStrikes < maxStrikes)
+        {
+            if (percent <= 0.25f)
+                statusText.text = "WARNING: Micro-sleep incoming...";
+            else if (percent >= 0.85f)
+                statusText.text = "WARNING: Heart racing — too much caffeine!";
+        }
     }
  
     void UpdateUI()
