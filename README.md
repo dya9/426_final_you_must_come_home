@@ -7,3 +7,7 @@ There is a bounce physics that prevents the characters from going through walls 
 
 Theme: The level is supposed to represent the feeling of being trapped and being overwhelmed. The situation is high stakes and every aspect the of the map is meant to inconvienience the player. It's dark, the lamps are flickering, and there's a drunk man harassing you. 
 
+Sound Design 
+Deeya - Made theme song for intro, first level theme song + enemy song
+Saanvi - Energy Drink Gulp sound
+
