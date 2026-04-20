@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 6d03ded07380c2345bc09599eb0099b8
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 7400000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/Closingwindow.anim
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f19325e1eb2108ddaea6ce95eab1bf00af3d349334736180b4cb981977949e0
+size 423

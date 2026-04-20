@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 82dc13826f8c00040b92c94337944a2f
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/keyboard_01.mat
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:56020c01196a752c7e94e9483def675e72f14f622ad65bd9171626907f96da1c
+size 401

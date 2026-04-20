@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 0d7e3cbd2cdf2e7428aa62ff7966b1ba
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/WallArt_Apt_02.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:0643fb9613df966c267282549e7d729579eb1de971d9c4af2d6d7661d98e86a9
+size 376

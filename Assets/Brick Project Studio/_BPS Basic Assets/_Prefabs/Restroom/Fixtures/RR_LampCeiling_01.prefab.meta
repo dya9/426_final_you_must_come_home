@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: a313254324200a241b66577d0c096684
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Fixtures/RR_LampCeiling_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:676c19ecdaf04ec757f6ecc207e8b816779486a0249f40ad2d4835e1e59f6168
+size 391

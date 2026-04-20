@@ -1,18 +1,3 @@
-fileFormatVersion: 2
-guid: 770aee30421368f4899e57b35481b2f8
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:967e9388d9300255df978f265a8b8b687a17830d2317578854a26a68b89e8406
+size 475

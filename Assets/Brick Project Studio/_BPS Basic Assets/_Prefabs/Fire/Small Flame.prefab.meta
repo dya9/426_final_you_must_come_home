@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: b62dfcfd3c5f1934aa61c3c462ee104a
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Fire/Small Flame.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:cfa3bdf5cb4a3554c9953c6b8b9ec7f80ac9621a2f6d8f96f19fdc92f1b0880a
+size 408

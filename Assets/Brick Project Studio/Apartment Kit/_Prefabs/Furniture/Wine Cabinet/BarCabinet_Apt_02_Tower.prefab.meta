@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 50f7395fbbcbfff47b55a68bd9ca5773
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_Tower.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:48d7bd606735f7d5d70205bd7158436cb16dd3fa72b39a876aa75edb2339378d
+size 434

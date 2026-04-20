@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 83fd61f02948d461785d92bee52868cd
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Moon_3D_Icon.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:13a3c62f75cabdb5bb4ac12bca0f3e8b92b247f1f1a571af52e8fe8a22801723
+size 388

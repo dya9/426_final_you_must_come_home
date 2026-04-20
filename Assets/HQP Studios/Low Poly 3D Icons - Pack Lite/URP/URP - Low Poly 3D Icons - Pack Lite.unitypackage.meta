@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: ba6b246f48e854395904792bf2775963
-DefaultImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/URP/URP - Low Poly
-    3D Icons - Pack Lite.unitypackage
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:0de2a37f5302a978f807bde55eabe76654865077f957a5a051b6ca7a190e8572
+size 418

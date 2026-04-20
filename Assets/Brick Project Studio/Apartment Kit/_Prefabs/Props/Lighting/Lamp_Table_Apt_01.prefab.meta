@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 3e7be61a66e072c44bc2cc6bbee79f45
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Table_Apt_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:2415150b81fba5b999ba55e631b746a4638ddc9420b1025b544d3a3c5b535bcc
+size 384

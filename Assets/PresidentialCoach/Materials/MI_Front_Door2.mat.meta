@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: abc00000000002726979080283436283
-NativeFormatImporter:
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 279420
-  packageName: Korean Presidential Coach
-  packageVersion: 1.0
-  assetPath: Assets/PresidentialCoach/Materials/MI_Front_Door2.mat
-  uploadId: 650142
+version https://git-lfs.github.com/spec/v1
+oid sha256:e005b7dec5ad28d156e30a8f7777b02424e3dc96abbb4ee5115a9ca3aaa443cb
+size 371

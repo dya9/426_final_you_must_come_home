@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 6ad7ae35911007741856dfec75c6ab59
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_02_04.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:da6d7309b22c7146730b3152f1831816f850aed3e847979961ed702df69023dd
+size 388

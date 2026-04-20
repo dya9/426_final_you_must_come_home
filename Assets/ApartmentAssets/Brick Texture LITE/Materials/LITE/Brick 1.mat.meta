@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 5ebc2312b1266f84e95742a7912a8948
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 289917
-  packageName: Brick Textures (LITE) FREE
-  packageVersion: 1.0
-  assetPath: Assets/Brick Texture LITE/Materials/LITE/Brick 1.mat
-  uploadId: 686651
+version https://git-lfs.github.com/spec/v1
+oid sha256:9fd3a7d8a528f3cf343cd51e0bbc735bbdfdc71526afe80ffe31250045503fe9
+size 393

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: a2f6163588e6e074996614a2b15b04b7
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 4890085278179872738
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Scenes/DemoSettings.lighting
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:98665a41a5859c3e57e53ff319d1c8bdde217fa295d63d68b94c336b3d0fe18c
+size 410

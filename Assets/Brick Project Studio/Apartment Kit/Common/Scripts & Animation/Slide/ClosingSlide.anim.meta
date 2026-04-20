@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: cb785e67ca26b2e4689e65053a5108ed
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 7400000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/ClosingSlide.anim
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:e24cb00f14b5253fa3cbee9533871e7cb6f26ed488b46de7419085d4687ce182
+size 420

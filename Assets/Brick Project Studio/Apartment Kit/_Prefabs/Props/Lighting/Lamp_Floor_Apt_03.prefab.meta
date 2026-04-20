@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: d386d629c043bd849840935643a668b9
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Floor_Apt_03.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:531fcd3c49449df870aaeaa69ba5100afca51b2ebccdc1ff62c907dad698b942
+size 384

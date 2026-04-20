@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: 266fb6016862b8b4ba1eec482c572c21
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic
-    Assets/BA_Glass_03.mat
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:85f71eff9bc35f57acc9f45d3d0df79046e91e6df56c03562b3aee1f6cfc42fc
+size 417

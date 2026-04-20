@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: 99a0f1488ea2c1d47b7e9f7190961e40
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Legacy/office
-    chair.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:d10257988f34eecae3c64585f83a6dd26a7b65bc218e24174d45be68b1261185
+size 415

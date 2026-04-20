@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: dc24fcef3393733459eaad6c68ba9bc6
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 9100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z
-    Axis -1/pullopp.controller
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:d8c3edb3832fa2214de3d5484c677a3f8adb8dd07dbbfd2c038c8b77132b46e8
+size 429

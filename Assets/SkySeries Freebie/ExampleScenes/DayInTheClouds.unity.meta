@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 2634e102100bcf64ca81587c175efa45
-timeCreated: 1520109644
-licenseType: Store
-DefaultImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 103633
-  packageName: Skybox Series Free
-  packageVersion: 4.3
-  assetPath: Assets/SkySeries Freebie/ExampleScenes/DayInTheClouds.unity
-  uploadId: 472193
+version https://git-lfs.github.com/spec/v1
+oid sha256:b60c7aa82c6376f384503edf618786a9aaae3f8ea77a243705232c27e5b7b7c3
+size 380

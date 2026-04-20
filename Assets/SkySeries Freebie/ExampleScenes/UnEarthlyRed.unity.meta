@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: acc44db00cf3703479df04ea90bad261
-timeCreated: 1515272149
-licenseType: Store
-DefaultImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 103633
-  packageName: Skybox Series Free
-  packageVersion: 4.3
-  assetPath: Assets/SkySeries Freebie/ExampleScenes/UnEarthlyRed.unity
-  uploadId: 472193
+version https://git-lfs.github.com/spec/v1
+oid sha256:814a32cd11ea0b9a5b0571ea6c6e7774021bc374a44877bbcf2a9cc2557a4e25
+size 378

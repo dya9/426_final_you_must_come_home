@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: b14aef9a05449784da6735de9ec90b24
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 58899
-  packageName: SimplePoly City - Low Poly Assets
-  packageVersion: 1.2.3
-  assetPath: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Grass
-    Fence.prefab
-  uploadId: 171409
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b8456284c117b064913ec75fbd2c21f323bfcd2888c956221e47f980da52621
+size 385

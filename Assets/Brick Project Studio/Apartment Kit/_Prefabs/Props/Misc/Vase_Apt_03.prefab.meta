@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 7a897a6b060173d41a37261351d86569
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Misc/Vase_Apt_03.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:2f4ae3a874f688132b5661896f21f1a34697d33a61ea5b9c8c08e5edba0b5de1
+size 374

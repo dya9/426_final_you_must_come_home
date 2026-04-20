@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: e200fc53947c71a429e5e90215956f0d
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 7400000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/OpeningSlide.anim
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b33296a44a8b0cec7fff844a5b1e3340fc2e38ffe9a9136b6e51e87ecc039c4
+size 420

@@ -1,18 +1,3 @@
-fileFormatVersion: 2
-guid: 2dcc27bd02596704e8dc9d1179cf6e6a
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 150120
-  packageName: VR Cinema for Mobile
-  packageVersion: 1.0
-  assetPath: Assets/VRCinemaforMobile/Scripts/FallowTarget.cs
-  uploadId: 322119
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5e377d63ffa57c6e70f1e2ea517e02e7129b066cac3dcad151bf710f04b393f
+size 438

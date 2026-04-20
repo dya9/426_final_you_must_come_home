@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 677e48bdd6cf48e42ac397a1a8a64075
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Plate_Apt_02.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:87b4571f5916655d53c966ded2028eb547f9510843c1572b8ee9654c7ef84ef4
+size 378

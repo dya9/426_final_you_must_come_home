@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 7169b9ec272e3914984cc69c69486082
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 7400000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/Openingwindow.anim
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:be584d68ab9fe90ddf8b69fe043bde59822fa21dacc6c99bfe169346670dd4c9
+size 430

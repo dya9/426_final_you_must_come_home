@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: f8ab6559bebdee74d80c33b67ab087d6
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 7400000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/TableFlip/Ldown.anim
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:97f681f9cd003a2338421be32b6f4079feeaf13d1e787c11ead95b4634657683
+size 417

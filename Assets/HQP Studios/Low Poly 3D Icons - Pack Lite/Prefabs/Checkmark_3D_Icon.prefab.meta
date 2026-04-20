@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 8ccc3b97fe30f4f089c35825269d97d2
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Checkmark_3D_Icon.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f3b7222ca3861cba48eed3f22fc1ab8513e80753061f600fe924f0d65187a16
+size 393

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: eb6be980b74dd4081a0b59622cd7b6bd
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Phone_3D_Icon_03.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d8f40a55724617a16c883b49f01d681909e606deff72939d6dcbdbcb2cff731
+size 392

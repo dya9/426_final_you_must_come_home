@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 6ae782b263dc9c548a46ef8ff80f34d8
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build
-    Kit/Stall/RR_Stall_01_L.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:099de7595ff9c482109c4d1c32ea274241625895d9ee5852240877863c760b47
+size 401

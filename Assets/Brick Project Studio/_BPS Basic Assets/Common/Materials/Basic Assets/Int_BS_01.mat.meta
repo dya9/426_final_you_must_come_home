@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: f03383d98b6709647991c50d409cf0af
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic
-    Assets/Int_BS_01.mat
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:df07f5419736e473de919d69c412e52709ea82024ba4bda97509334096bfb10e
+size 421

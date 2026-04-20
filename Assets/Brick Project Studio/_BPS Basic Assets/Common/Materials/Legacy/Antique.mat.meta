@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 4a3c4e9ae9b122e449659fdb803fb1dc
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Antique.mat
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:3093760d69664965b2bcc3e6bfa041bba8a0086c3858c3cc935ba8bb5aeeeb1f
+size 403

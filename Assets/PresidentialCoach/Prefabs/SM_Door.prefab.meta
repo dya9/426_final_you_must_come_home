@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: abc00000000016900457399985715273
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 279420
-  packageName: Korean Presidential Coach
-  packageVersion: 1.0
-  assetPath: Assets/PresidentialCoach/Prefabs/SM_Door.prefab
-  uploadId: 650142
+version https://git-lfs.github.com/spec/v1
+oid sha256:340628f39b0fe0cb714653e8eb74ea7cb10d129ac6656d60cb452313c3e03edc
+size 353

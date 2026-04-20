@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 7b8d9613223ef1f448bbe8fc90d8a85d
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Rug_Apt_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f8ef047218caebcd2b90fe2a5e24a3769a044f2d789dd70c882ead1487eccd3
+size 372

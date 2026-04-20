@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: da8d66e9aab28f140a44add462e64b02
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Canvas_Nat_01-02.mat
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:e4f06cd4725e2841fb6cc03e754abe2e9552a2c54f14858ab48d0e8561dec529
+size 406

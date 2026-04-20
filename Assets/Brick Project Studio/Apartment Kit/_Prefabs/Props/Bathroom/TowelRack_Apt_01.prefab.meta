@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 0c194d566209b524bb98efa3b5f1563e
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/TowelRack_Apt_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:2df1115bb77d91fc282e1376bc78e1cc7bdee5347a2e9a91be66110822e97fca
+size 383

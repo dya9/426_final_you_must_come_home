@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: c3f9a413bb27d4afaa349e656a75e9a0
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Racing_Flag_3D_Icon.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:de28193bc22347eeb5906666b5ea1fc606319214972bc143e8c0152442d210f0
+size 395

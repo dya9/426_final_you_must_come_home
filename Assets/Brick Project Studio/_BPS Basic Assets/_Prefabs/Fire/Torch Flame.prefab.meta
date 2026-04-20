@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 65b0d7b3c17d2854f87e4c8416f798fb
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Fire/Torch Flame.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:a3422c2efa658ca906e045a8a2268bd957ff20c86fd92e31d0b49966cda2fa69
+size 408

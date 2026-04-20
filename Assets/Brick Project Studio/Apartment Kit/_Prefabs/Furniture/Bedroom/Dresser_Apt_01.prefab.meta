@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 3f38091ec14910c4c8b8af3bab31b1bf
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Dresser_Apt_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:13a215f18852b15605c47c116cf417f6e3475462906d6c48b572dccc5e68cd9a
+size 384

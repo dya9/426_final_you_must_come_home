@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 49f576a03ece56a4e9c640ed081f6a68
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Structures/Structure
-    01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:d758f078e85c1c2a385d660b5e2cbb9247556a06592ec9670f6983131be342c9
+size 379

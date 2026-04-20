@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 226aa234041d2be48881aab9632ea78e
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Base_DD_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:766235c3acb8f77a19c698c1b555a306a68eaae9fb460247f04c5615cff6a82c
+size 397

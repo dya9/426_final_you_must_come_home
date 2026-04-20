@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: a11f0183ce7c74b04902a4fd3d0313cc
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Banana_3D_Icon.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:84592f75148dbd24aefaecf2e5249732f77fc2974a036321f3fa381b28d71475
+size 390

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 36dce1c4ecf83f74392c8361f42e87e7
-timeCreated: 1518834660
-licenseType: Store
-DefaultImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 103633
-  packageName: Skybox Series Free
-  packageVersion: 4.3
-  assetPath: Assets/SkySeries Freebie/ExampleScenes/UnderTheSea.unity
-  uploadId: 472193
+version https://git-lfs.github.com/spec/v1
+oid sha256:06dc2891d690949eec0d42815d2a0858b796c9da520a0696a0eaf351cdbcad8d
+size 377

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: fb9693291508d476880d2776fdba7ed6
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Book_3D_Icon.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:ce862b2b630d1f55e7f35d34b09eb52988da6d5358492322794e6ae93ee52db1
+size 388

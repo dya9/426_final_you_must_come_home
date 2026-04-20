@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 79b944a6d385a6444a7932d0dd93d9ce
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Wall Wine
-    Rack_Apt_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb011e2b82628a4fa3cde80dcaf46d52703af38cb945d46ed0dea5dcfab7d068
+size 387

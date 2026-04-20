@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: fcf0213085e88bd4d80d1d47f3cd2174
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 7400000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z
-    Axis/openpull.anim
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:52d9e94e11c7d7cb3bb0779ceb83ea16d312a1415f457344463977c3493391ce
+size 435

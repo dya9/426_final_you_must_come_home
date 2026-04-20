@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 811e6e74b6e3af9468ee8cf92013ce83
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/Hamper_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf446c241d0f0335e0f2d06d4d5f8e2b066bb667eb311effeea5a49338e6511f
+size 380

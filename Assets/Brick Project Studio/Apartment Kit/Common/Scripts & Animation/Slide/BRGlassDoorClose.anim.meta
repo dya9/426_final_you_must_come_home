@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 59bf63e47d9f08e47a9fd86d44895e45
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 7400000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoorClose.anim
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:b691790b5523b695c1041dd9c1e4ccd5610886e9245616b4c04aba1d4c6d74d3
+size 424

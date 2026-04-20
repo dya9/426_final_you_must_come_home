@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: ca794718ea2a2e4438e37724e4f6a6cc
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Wall_Apt_02.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e2e75aeb68ee69185cd0a2e36e27a5e78abc2b7a97d731e62ea4091da10a998
+size 383

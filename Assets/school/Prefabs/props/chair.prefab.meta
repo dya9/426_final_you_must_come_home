@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 5a652a60006d6ec46980e623412396f9
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 146253
-  packageName: School assets
-  packageVersion: 1.0
-  assetPath: Assets/school/Prefabs/props/chair.prefab
-  uploadId: 436609
+version https://git-lfs.github.com/spec/v1
+oid sha256:0be1a20e28c5c1cb9b62cf1104ce77d7de996cb9d3595cd42ea7ded82b5c63c8
+size 370

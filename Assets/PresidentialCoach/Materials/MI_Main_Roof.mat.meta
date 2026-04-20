@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: abc00000000001421996248709289014
-NativeFormatImporter:
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 279420
-  packageName: Korean Presidential Coach
-  packageVersion: 1.0
-  assetPath: Assets/PresidentialCoach/Materials/MI_Main_Roof.mat
-  uploadId: 650142
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e7c71c030af9f5f0999dc6b57337066f52286eb2231e3df8fc365b8624ef83b
+size 369

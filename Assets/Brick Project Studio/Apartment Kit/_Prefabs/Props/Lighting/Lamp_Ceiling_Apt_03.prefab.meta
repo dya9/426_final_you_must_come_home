@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: f920163421f537643a94fbbfe25244f9
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_03.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:9db520504a48d7af60a5fbdb0e016af391650d97cf08facb969650fde860ebc1
+size 386

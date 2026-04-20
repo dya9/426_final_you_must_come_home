@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: ae6447d9d805dbd47a186d4d4b009eb9
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 9100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.controller
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:89ab56b82483e5941dfba0fc668f76f771b2eed70203ff2b1191f49a02fae177
+size 425

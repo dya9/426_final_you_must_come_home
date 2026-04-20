@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: cb533d6f7329a744fb5c0396de1b8b4b
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/BathTub_Base_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf62ff5698260c91b923a8c154575e502aee7bc61408acb08f5c629c5caf33c4
+size 386

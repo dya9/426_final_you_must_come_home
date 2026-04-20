@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: aa96a8c1d168fcb4ea92cd8558fe7a46
-timeCreated: 1509146101
-licenseType: Store
-DefaultImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 103633
-  packageName: Skybox Series Free
-  packageVersion: 4.3
-  assetPath: Assets/SkySeries Freebie/ExampleScenes/Daylightfreebiedemo.unity
-  uploadId: 472193
+version https://git-lfs.github.com/spec/v1
+oid sha256:6af9f97f75a34d8f29d7e6fac6c4268893f2b6ce4abaf6e2d9f6a25ae0aaf080
+size 385

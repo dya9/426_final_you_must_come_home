@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: 39cb1cbad0ccff047b57918d45dc6917
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 7400000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z
-    Axis/closepush.anim
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:9093c41b86f996d789e0342ec792172ee789496f4cf62fb47108186485470e4f
+size 436

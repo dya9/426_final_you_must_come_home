@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 9b5aa6428ba7a6246bd201ba8d95cebe
-DefaultImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Scenes/Scene_02.unity
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:11769637c336a098995f032074ba08df7ae74998ff7fa4639d2de5591e6684e0
+size 358

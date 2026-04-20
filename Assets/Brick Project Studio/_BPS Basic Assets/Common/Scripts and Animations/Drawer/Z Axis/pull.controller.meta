@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: e20d80aafd5329a4897333eebe043b04
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 9100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z
-    Axis/pull.controller
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:950abeed121a629e44c2a485a09d48f08818a463305190305be904e37c9a03e0
+size 437

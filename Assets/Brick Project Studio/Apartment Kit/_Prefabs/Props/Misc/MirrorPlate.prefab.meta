@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: ba11bcdb94e8ac2498db51b197091c7a
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Misc/MirrorPlate.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:4991f6c103091427095422bdba31c8262c57775b62bb47a4898df1e1f02bd5b6
+size 374

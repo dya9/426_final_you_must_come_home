@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: 42ded4a9b41e76d46bb90a3e35072cf7
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Legacy/Base Room
-    Scene.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:494b5997b744bd6c2da9df523b896b7b8cea94b248312e48f7273b194160c5d8
+size 418

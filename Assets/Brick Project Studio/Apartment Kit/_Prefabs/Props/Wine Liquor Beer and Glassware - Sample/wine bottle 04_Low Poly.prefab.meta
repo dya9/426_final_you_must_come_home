@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: e0f8fa703bcf04a419f5263f5020b059
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Wine Liquor
-    Beer and Glassware - Sample/wine bottle 04_Low Poly.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:41cd5e04c10d65a592e7cc0c892d842fe0549d0065fe949ebb9d40325083d83d
+size 425

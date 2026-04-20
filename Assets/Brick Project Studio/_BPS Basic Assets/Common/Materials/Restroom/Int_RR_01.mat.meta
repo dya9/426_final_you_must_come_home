@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: b61458ebb19004843af57f63626d7f2a
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/Int_RR_01.mat
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:4dd0269a28de68f5a7eae7bb38e6e92de649721d85ebfc5682a258983bd2da47
+size 407

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 843e4058e4b291d44bc18a16bdfae4a2
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Misc/Bench_Apt_02.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9d15d66aec77eb65fc0ac733a6aea2ad8e76c2e9c8bb0342fc635e5fa8fc17f
+size 379

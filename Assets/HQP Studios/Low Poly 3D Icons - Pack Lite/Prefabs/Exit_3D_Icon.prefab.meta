@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 90f1f82bea4994777b536e0031e310b6
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Exit_3D_Icon.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd55acda9bf108e027afa8282f86e5e6e67066cc810bcbeb2fde9537258ebe3f
+size 388

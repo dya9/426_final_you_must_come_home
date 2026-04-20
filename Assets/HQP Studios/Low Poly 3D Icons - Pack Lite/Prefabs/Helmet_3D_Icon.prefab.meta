@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: a3d04283cb2ec480c980790976ad52bf
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Helmet_3D_Icon.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a228945c65b4c19db13560204bb919145222de067f5721eca0ebfebb3f75957
+size 390

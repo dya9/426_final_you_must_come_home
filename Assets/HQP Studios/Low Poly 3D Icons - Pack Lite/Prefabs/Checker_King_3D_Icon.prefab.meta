@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: f9f58fb5ffef343819bcb676524a4bc4
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Checker_King_3D_Icon.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d29d3106dc150b2b8523d909fbec41ccb17992a6af3d1450c53218a933c2e12
+size 396

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 524e5c45ecd9442599edf04271dfe6b9
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Zoom_Out_3D_Icon.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:ecf588657b9f73fecd35f47b9a2399dc7f2d2124d72649743df51f105724a1b0
+size 392

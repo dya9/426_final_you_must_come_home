@@ -1,17 +1,3 @@
-fileFormatVersion: 2
-guid: 3f27dcffbb9271743ac0c6aeb34204b0
-labels:
-- Potion
-timeCreated: 1433801398
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 38959
-  packageName: Procedural potions
-  packageVersion: 1.0
-  assetPath: Assets/Potions/1/Potion1.prefab
-  uploadId: 67336
+version https://git-lfs.github.com/spec/v1
+oid sha256:cbeeb3a19b5acd2c656b487be5284efaa5ff22bc22e019c37f5afa680bbbbb7f
+size 372

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 7504f6d8f16670241856bdd867609ccc
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Vase_Apt_01.mat
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:22edf75815a798fae1dac614ef0fd19107eef3f36953d83c651ed38a8e56ed41
+size 410

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: abc00000000011769543988393130606
-NativeFormatImporter:
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 279420
-  packageName: Korean Presidential Coach
-  packageVersion: 1.0
-  assetPath: Assets/PresidentialCoach/Materials/MI_Brown_Exterior.mat
-  uploadId: 650142
+version https://git-lfs.github.com/spec/v1
+oid sha256:f05b1981d390fb3a95a13c60a0b3226dae17eb6abc948d957670dfe5e69ed50e
+size 374

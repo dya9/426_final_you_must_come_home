@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 8d47f25a25106dd4fb4f92261f369863
-timeCreated: 1512945925
-licenseType: Store
-DefaultImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 103633
-  packageName: Skybox Series Free
-  packageVersion: 4.3
-  assetPath: Assets/SkySeries Freebie/ExampleScenes/AmbienceExposure.unity
-  uploadId: 472193
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c3528f837558a2cbc6b76aa6e64e9474d238970b3a1fca8e8567a7bccd82e22
+size 382

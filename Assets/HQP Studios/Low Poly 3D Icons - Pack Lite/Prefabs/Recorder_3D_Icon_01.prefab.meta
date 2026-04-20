@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 7486dee63700443608af5f4f6d0b0ccd
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Recorder_3D_Icon_01.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:8252bb0255893afd708b30754413913c10d2a13f1b81221a79f0c091e17c32b1
+size 395

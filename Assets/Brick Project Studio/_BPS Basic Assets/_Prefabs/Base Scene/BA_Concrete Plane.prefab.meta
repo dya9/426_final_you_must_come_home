@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: 0a39e6bc93e859145a2f868ff0277c31
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Base Scene/BA_Concrete
-    Plane.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:1df6db374f375a702b0d52e825c949786021c23fe9bcd1ea6d4034195e9ad4c4
+size 424

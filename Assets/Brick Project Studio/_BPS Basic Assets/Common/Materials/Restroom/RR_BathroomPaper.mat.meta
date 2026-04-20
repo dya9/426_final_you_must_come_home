@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 59f4361ca0482dc47b43305e31892b29
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_BathroomPaper.mat
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9322a773dc01c96ab771cbc8dfce14a36da81dc3a21e762e9c113e3286e32c8
+size 420

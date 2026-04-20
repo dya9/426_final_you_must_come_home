@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 680503713abcfb149bae4f505b6c449c
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA
-    Build Kit/Exterior/Ext_BA_Door Frame_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:3cd8476fb0c17466163808ed2686c6a6feda54fbca07e63538b7bd061c0ad98e
+size 414

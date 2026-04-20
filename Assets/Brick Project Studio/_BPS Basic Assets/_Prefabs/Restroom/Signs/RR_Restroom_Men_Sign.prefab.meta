@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 0e258bad90e29e5428d9fdcd3fef014f
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Signs/RR_Restroom_Men_Sign.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:bce254d27c595a168a7c85fa177662e1ec50b2bebb10f1ebb05e2cb48ea7be1c
+size 391

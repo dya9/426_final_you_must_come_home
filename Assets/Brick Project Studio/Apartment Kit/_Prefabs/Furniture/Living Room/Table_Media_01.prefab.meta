@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 54a1d2aa299948d4386f320102e514a9
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living
-    Room/Table_Media_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a73186656f2aef7d1889d4f3964b2f0b1bf1f7897fdca65d81854da4a06f40d
+size 392

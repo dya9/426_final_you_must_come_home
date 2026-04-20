@@ -1,18 +1,3 @@
-fileFormatVersion: 2
-guid: c1f1c4265d2e233469ca3a33b18036d8
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/TableFlip/TableFlipL.cs
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c0bc13e7057d9090eb157c10852a19f281d731f20b1e07bedf917f9294db518
+size 475

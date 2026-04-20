@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 29eb9cdec523f4944b46fcfae81dc9c8
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living
-    Room/Chair_Apt_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:07d133ea2041893bc4876ea3f99b9b1cbb73960c2b356e8133aef666a7d73311
+size 390

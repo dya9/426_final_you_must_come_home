@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: 2149baccf21e31043a0e66c87a72bfcd
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Adler
-    Dark Wood.mat
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:a28fc38cd12e047771ea7477aa27206553e687372bd66c67a19131cbb3cff53a
+size 418

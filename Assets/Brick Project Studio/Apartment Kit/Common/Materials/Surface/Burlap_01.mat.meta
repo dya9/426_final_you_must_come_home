@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 4c3e122e15d5d984083bffaa2d094ff5
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Burlap_01.mat
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:db3de92bdbdba1d440252ec266441a70009de7c691c7f74f586c50f1f4c1f4f3
+size 408

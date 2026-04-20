@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: cdb5cf50c86c5e1479a217fd032beff8
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Fire/Fire_Alpha_01.mat
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:6491f4c151cb9c0517315f3f1be2affa64e99946bb97900e88d88400d3edb372
+size 413

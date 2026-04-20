@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 7ef73c6a11f5b224eb30899e8efb83eb
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 279420
-  packageName: Korean Presidential Coach
-  packageVersion: 1.0
-  assetPath: Assets/PresidentialCoach/Settings/ForwardRenderer.asset
-  uploadId: 650142
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2ca1c854f2ecb2ea3f3af7273937d4f232bcbf0619fe27c50a01c08489eb1b4
+size 389

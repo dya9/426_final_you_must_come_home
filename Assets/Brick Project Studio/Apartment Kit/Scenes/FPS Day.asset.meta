@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: e3182bcc24e537a4cabcb81980a6a669
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 11400000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Scenes/FPS Day.asset
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:9deb0b4fbc2aba8db7ae6fb0681d38d0186ca63f9dfe6e754b9dde24b986937b
+size 391

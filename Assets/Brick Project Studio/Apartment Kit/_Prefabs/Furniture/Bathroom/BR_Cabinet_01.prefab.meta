@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 4fd059785718649499a344b0c22ecd22
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/BR_Cabinet_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:e35941efaf910290ce2ab004bf658e3f0fb25b3cb592fb47040880f37fbb5426
+size 384

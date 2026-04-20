@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 5f635d348fad9f742a95c45e8aceda58
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build
-    Kit/Doors/Int_RR_DoorFrame_01_Unisex.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf885926c342198bba14051bdbd4d12b3c3fd1a9a40142510e527327a8ef0b25
+size 414

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: abc00000000015568710612468454868
-NativeFormatImporter:
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 279420
-  packageName: Korean Presidential Coach
-  packageVersion: 1.0
-  assetPath: Assets/PresidentialCoach/Materials/MI_Blue_Chair.mat
-  uploadId: 650142
+version https://git-lfs.github.com/spec/v1
+oid sha256:b069751eb61102aed3e526dc23d08a91ceae69d11fe3fa48811abae9c08db151
+size 370

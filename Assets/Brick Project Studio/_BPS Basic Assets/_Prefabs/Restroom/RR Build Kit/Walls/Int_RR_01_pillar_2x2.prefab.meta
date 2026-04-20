@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: b17effefd1c1da643888570fb5635416
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build
-    Kit/Walls/Int_RR_01_pillar_2x2.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:b66464d2ecef4088137b6650a77f50f8261558a4d756f6cd04cbe4d9ff9ecd42
+size 408

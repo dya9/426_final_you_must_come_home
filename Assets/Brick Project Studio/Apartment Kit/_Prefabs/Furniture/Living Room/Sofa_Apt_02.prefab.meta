@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 266d5a1d00e2ac2479b93bdd1914ad78
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living
-    Room/Sofa_Apt_02.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:764b0c9be6bb184e05e8d9c9ba7caa57e2fe74218c5ccfaebae2b631986face1
+size 389

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 5b7c74c7b0bc859459d4dd7b7f164fb2
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_Restroom_Sign.mat
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:63a1fff9c6d376b67e207805192fd52a8ad8ff6d608038c7bfdc7f912a0219c0
+size 420

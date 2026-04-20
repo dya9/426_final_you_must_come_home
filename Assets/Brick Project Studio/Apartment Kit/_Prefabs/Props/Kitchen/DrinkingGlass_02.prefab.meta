@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 12df49c36886f4d468acfee364eedc4c
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/DrinkingGlass_02.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:a4d2900105e5b06dda65784599f7499033f5f321dcba7f6351da76c553f649cd
+size 382

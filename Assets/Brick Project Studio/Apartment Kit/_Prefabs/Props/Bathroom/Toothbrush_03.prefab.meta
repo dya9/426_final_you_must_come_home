@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 6a38eedbc13730a4e83af50d68894995
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/Toothbrush_03.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:dec473b897875dc9946908544def8e351ffbc32f574c0a1683e22aaa238c9823
+size 380

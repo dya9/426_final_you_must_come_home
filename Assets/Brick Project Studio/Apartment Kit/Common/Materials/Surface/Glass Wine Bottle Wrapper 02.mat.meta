@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: 5d5f7ba22899a774081673e045e96cc5
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Glass
-    Wine Bottle Wrapper 02.mat
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:b8fe43c9815b6f907871317637172ce61312a141151876474c6ca84bedaec685
+size 425

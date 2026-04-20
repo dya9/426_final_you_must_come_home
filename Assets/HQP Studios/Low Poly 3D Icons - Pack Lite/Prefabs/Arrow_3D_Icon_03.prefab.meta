@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 23a808a3f9f6d4e3aa0035f3ed5a0a7e
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Arrow_3D_Icon_03.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4fe69f271f8f1ed996db1976a72984517eaa315caed3c69e87bba5130ffec22
+size 392

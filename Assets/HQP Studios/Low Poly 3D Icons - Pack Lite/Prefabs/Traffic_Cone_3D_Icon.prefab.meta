@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: cf97479d603524a2b87b9b83f8df916b
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Traffic_Cone_3D_Icon.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd22c761371f06bf8381a082d03506bf59ae4a30488ef991932e383e40d34dc4
+size 396

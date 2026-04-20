@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: d141daf80844c461e9f6f3f71852ab81
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Play_Controller_3D_Icon.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:ccf636d56965486a028043d4152b1dd9abaa50379bb6268bc18abd1df58ccf93
+size 399

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: abc00000000005850800598048364191
-NativeFormatImporter:
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 279420
-  packageName: Korean Presidential Coach
-  packageVersion: 1.0
-  assetPath: Assets/PresidentialCoach/Materials/MI_BathrooMI_Floor.mat
-  uploadId: 650142
+version https://git-lfs.github.com/spec/v1
+oid sha256:51f49946b30cdf6ad6a9dc0357283c3dd4c326433f8c0d0216cae99d82eec555
+size 375

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: dd1071a0c26f948b593dbfb249020666
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Audio_3D_Icon_05.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:32e858c6d6a22e5da4d867ddb774f2dffd3c31e3e03e86a72c3ab16079689f32
+size 392

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 4bb7c435fb1657c42a9ec5ad46b7100a
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/RedLight_01.mat
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:ae64848ad3e18636dd73f48102787b98a061cf0ce95d88419222904b9214dd9f
+size 404

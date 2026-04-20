@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: a2c29511873a89c4b8ec41360c9dd9cf
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Plastic_02.mat
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5356b1e6404e377055e11b1f2beba16b679bdeebf1003e6b2d05b5b98dc52b3
+size 409

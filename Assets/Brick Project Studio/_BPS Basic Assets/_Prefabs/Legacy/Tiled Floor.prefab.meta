@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: 51d3051b1d589214e960ae74c8933521
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Legacy/Tiled
-    Floor.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:d421e8dd93f0f3fe39f902875ac1af4e53e7c8f2f071b30f986d20edb9671f62
+size 414

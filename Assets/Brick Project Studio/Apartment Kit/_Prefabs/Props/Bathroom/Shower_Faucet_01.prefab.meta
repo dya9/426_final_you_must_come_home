@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 642a2cb4532c08a4db221317e2019f62
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/Shower_Faucet_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:0194c90a9d028f08f553a192a804a10fe4eb018614c0c86945ad4912359e2ce2
+size 383

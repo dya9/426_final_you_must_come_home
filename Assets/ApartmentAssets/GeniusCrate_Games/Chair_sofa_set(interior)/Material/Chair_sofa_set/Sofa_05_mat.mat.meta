@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 573fd168d260f854791e74fb0b60b310
-AssetOrigin:
-  serializedVersion: 1
-  productId: 263004
-  packageName: Chair and Sofa set
-  packageVersion: 1.0.0
-  assetPath: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Material/Chair_sofa_set/Sofa_05_mat.mat
-  uploadId: 616539
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e58d2bf0b791a8ba416cc71c1c11a490f67a6667e3fa2953239c959b35d707a
+size 418

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: e2af111a8a7a141c09aa4fe314f8cd7a
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Hospital_Building_3D_Icon.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:bbd6bfdc33768c30dd3c53bfa4d6b32998c87b005af044ccb4278952911d580f
+size 401

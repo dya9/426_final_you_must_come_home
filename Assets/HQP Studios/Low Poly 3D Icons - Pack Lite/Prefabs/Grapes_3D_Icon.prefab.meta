@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: b71d710baeb924ec991b711360773e72
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Grapes_3D_Icon.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ca040d537eb4005b25a0534e701b4c2567f4f421ad5bb6bc2ba0f0f27bc9ee6
+size 390

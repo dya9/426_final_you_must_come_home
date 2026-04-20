@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: e2fa05d22ec876745aec3dd263e3622f
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Misc/CandelSetting_apt_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:d3edfa8a48057c30d534854fe4af5fb3f89e515f93fa06107162381b00bb4a18
+size 383

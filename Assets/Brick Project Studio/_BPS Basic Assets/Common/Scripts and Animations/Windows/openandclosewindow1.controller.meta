@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 3bcdaa1dc4d3d2941bdc687f50714a64
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 9100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/openandclosewindow1.controller
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:10d6e7988011eea2593ef37cc2f5bf06c6aa994315bff4d2384c6c0f441a7bbf
+size 442

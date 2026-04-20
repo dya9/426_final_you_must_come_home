@@ -1,13 +1,3 @@
-fileFormatVersion: 2
-guid: 39f651e340882304fa6f21b321d3bea5
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 58899
-  packageName: SimplePoly City - Low Poly Assets
-  packageVersion: 1.2.3
-  assetPath: Assets/SimplePoly City - Low Poly Assets/Materials/Natures.mat
-  uploadId: 171409
+version https://git-lfs.github.com/spec/v1
+oid sha256:168e1f97deac3160ea55dd6f3862ff0891b996b198f7f0cd56e12013ebbb6524
+size 361

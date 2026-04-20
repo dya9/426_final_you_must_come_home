@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: ce0bc08e90169b64a82b286ba042f677
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Canvas_Nat_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:afe3ce33e974b0e5dafa8342c1707c42bd22f27acb0f9d5c61515a5b5b64ca59
+size 375

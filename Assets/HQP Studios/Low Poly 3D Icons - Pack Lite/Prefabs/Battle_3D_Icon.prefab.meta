@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: f43bc087588b1474389a90c35767a97e
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Battle_3D_Icon.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:cceead58f9120d3626055d68a3db2f291b93d8354f6e86cdaf7acf11722ada69
+size 390

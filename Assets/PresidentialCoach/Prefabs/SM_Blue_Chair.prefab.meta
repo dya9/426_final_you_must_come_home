@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: abc00000000011040007423366067159
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 279420
-  packageName: Korean Presidential Coach
-  packageVersion: 1.0
-  assetPath: Assets/PresidentialCoach/Prefabs/SM_Blue_Chair.prefab
-  uploadId: 650142
+version https://git-lfs.github.com/spec/v1
+oid sha256:dddc77d8ec2bd1f0388cd81bb2537d6b054224da71f813a2f2ff02177c731a0d
+size 359

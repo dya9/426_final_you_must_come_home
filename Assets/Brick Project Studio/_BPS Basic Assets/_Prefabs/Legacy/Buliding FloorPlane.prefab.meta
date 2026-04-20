@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: fc813e1d3f19bfc449ee6e7a5d8e579a
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Legacy/Buliding
-    FloorPlane.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:ddb73063a80258d488c2a67d06a9cb589dd4f5878dad279b50d6b5d6da3f2022
+size 422

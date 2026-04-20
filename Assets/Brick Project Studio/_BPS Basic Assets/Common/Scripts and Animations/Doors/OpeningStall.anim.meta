@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: f3f604da56740ba469c68a0aebb4c41b
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 7400000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/OpeningStall.anim
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:4cd444ac1ac7ccd29ffe28ee333d7c62cb404d1a70b5e733353c0c3657dcfafa
+size 427

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: d17c15e72c29a9f49879ff3b971bd44c
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_Filled.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:6871c7259c31dfd7a6535c459f281006847e2ff2f5748bb4756c597a468b7ebf
+size 435

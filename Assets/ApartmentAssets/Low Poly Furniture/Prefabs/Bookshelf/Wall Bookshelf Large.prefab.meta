@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 90128d4c28d314d438e6f628dae06392
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 240197
-  packageName: Low Poly Simple Furniture FREE
-  packageVersion: 1.0
-  assetPath: Assets/Low Poly Furniture/Prefabs/Bookshelf/Wall Bookshelf Large.prefab
-  uploadId: 553593
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6f5d2066546278eccd62fdb7ea5e022f33a6f2d53d78efe9ce10b0ba79c8333
+size 382

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: de9733bf19fc523468c159b6fa49c2b3
-TextScriptImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Scenes/BPS Apartment Kit.txt
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:ddc4d053578f3df0de96ca83e51625387914cc6a0b5c7e517c9bbf67a3e8c50a
+size 368

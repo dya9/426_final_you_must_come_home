@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: abc00000000011682149748125653315
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 279420
-  packageName: Korean Presidential Coach
-  packageVersion: 1.0
-  assetPath: Assets/PresidentialCoach/Prefabs/SM_Main_Roof.prefab
-  uploadId: 650142
+version https://git-lfs.github.com/spec/v1
+oid sha256:e24ea30fc306bf8bdadcb03688667d5d66efbcb3489f9250d8298897301d92b4
+size 358

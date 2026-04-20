@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 94e4c3350f88fe94ba5e156103abcf1c
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/GameController_Apt_01_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:30de0bbbf6f647bbb3aa9b86fde9a8b4b947adfa0213c935e159d5c68933a425
+size 394

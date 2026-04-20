@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: c822a288072f2c7478063b318d9f9534
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_Soap.mat
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:28e3ad2d5bb7b396ac2feae7e2a18da59df37cc670dfe1a14f0c9eae205878f7
+size 411

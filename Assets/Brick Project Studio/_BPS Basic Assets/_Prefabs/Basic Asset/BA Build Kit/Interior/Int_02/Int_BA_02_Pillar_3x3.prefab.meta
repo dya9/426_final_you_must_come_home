@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 9068914faab841c49adc9e106827f827
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA
-    Build Kit/Interior/Int_02/Int_BA_02_Pillar_3x3.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:e33eac66911c411ebbc10ef079a06df29ed359beedbdd28d610f47e8344281b9
+size 421

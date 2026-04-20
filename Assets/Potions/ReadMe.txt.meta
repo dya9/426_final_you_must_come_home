@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: fdb3eacc3f664af4bb4ae322a4f4d068
-timeCreated: 1433861558
-licenseType: Store
-TextScriptImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 38959
-  packageName: Procedural potions
-  packageVersion: 1.0
-  assetPath: Assets/Potions/ReadMe.txt
-  uploadId: 67336
+version https://git-lfs.github.com/spec/v1
+oid sha256:8aa4181bcba54396565c8bc792febb1abd9143f4b6c3fd5f2497eb04822fc9aa
+size 347

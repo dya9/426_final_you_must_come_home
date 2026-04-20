@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: eceb856229dd0418a913b96f1c3e8df6
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Skip_3D_Icon_01.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:d71bccf748b2ebe9e48b6fffe97cd11682aa3335634cd1d14c576f6aa0d2a6b3
+size 391

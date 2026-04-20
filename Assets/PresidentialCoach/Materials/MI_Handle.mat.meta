@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: abc00000000012205256629022288617
-NativeFormatImporter:
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 279420
-  packageName: Korean Presidential Coach
-  packageVersion: 1.0
-  assetPath: Assets/PresidentialCoach/Materials/MI_Handle.mat
-  uploadId: 650142
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff9528bfff7a252d52bcb4cb8847e59a8e9e7a09843c83c53b7b73c19c45d9a5
+size 366

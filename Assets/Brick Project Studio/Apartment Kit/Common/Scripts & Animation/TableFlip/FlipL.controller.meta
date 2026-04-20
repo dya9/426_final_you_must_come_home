@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 44a6083341b144c4f9f33731e8b8d0aa
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 9100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/TableFlip/FlipL.controller
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff300a03b74413dc9a493d91de44edf73dc7bc363a0a1a53478625421d0fb4a5
+size 423

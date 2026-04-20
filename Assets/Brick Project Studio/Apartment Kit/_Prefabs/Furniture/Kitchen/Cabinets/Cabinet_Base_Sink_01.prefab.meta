@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 1a83256f7767c2c46a1371969648490c
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Base_Sink_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:5235d2aac816c1573089ee13eb9aff68a543eead8c587a1be16992f430e6ab88
+size 399

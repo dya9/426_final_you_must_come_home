@@ -1,18 +1,3 @@
-fileFormatVersion: 2
-guid: 79023f3c1c542ca478d98525efcaa0bd
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:24bbf8d27c284b32a821d2ce9fddec439b68a66d7f3bce7c43ca562624fb5433
+size 486

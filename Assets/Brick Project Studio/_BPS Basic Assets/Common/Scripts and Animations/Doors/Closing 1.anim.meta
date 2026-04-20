@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: 3ba90786818c61749b6ba3df30d6c117
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/Closing
-    1.anim
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:da290dabbf0418e59802b2b9190dff5d7fa01f0934495e73893badb20430ac01
+size 422

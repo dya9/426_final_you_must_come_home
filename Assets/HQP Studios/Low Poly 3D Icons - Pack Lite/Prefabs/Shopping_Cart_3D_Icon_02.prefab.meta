@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: ecf6e909af56a4dbd97d446ccb017820
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Shopping_Cart_3D_Icon_02.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4752fb816b005fd7091b00e7262a868a0f0ef0cd748a980a10001d6646a22fe
+size 400

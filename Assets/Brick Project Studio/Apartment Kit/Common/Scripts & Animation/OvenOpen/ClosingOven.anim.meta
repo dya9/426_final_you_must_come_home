@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 438a7d2af973c3348921e30c83ab5205
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 7400000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/ClosingOven.anim
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ec81f9be6050ed45b2abb1ba31a0f0b3aeaf0ddcd80586eef7a97cfcc92da6d
+size 422

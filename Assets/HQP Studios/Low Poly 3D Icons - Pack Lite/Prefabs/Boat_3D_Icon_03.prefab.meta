@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: cfbc7774a2f9341b8bf1d4677c3a8805
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Boat_3D_Icon_03.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:225bfc99b8933876d5dee84b4fe55484e5a6f93404e8cb6ce516185fcc25192d
+size 391

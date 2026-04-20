@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 8241ffa2db322f148a140189e8ca4afd
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Fixtures/RR_Toilet_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:d63c2782813af656be87e63fdd78b95a42f6eabb769e7e9b0df7265899fb7fa7
+size 386

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 7765eb971581e4a31b7dc953b332ed4b
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Compass_3D_Icon.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:33cec3aeb5f132d2dc4de6af3c845f2d6e2e19194f713f0d9345a4ae103e6159
+size 391

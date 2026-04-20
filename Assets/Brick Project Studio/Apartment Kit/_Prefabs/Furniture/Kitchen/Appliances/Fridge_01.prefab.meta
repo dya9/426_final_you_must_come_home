@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: b9f258a086096d24aa7861fa20deed65
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances/Fridge_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:36d48a3a9f2d63516320810ea1ebb2ca1fc8d28144bb64d0c201bfed2ef8b6ef
+size 390

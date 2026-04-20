@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 2e6929a3e156240d9a29a8b263fc9a8c
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 295587
-  packageName: Low Poly 3D Icons - Pack Lite
-  packageVersion: 1.5.2
-  assetPath: Assets/HQP Studios/Low Poly 3D Icons - Pack Lite/Prefabs/Anvil_3D_Icon.prefab
-  uploadId: 894324
+version https://git-lfs.github.com/spec/v1
+oid sha256:b21b381bfa572c8021880ea030cab9dfeee498c43c4e17dd4fe25367dd98e92f
+size 389

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: c612e3337c0dc104cad3a7273353aa22
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 263004
-  packageName: Chair and Sofa set
-  packageVersion: 1.0.0
-  assetPath: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Sofa_05.prefab
-  uploadId: 616539
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b47ef238c6b37c814756a2d14177cc48a36bd1b85beda7cbf29d7685611c989
+size 387

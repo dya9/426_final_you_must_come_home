@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: bd82980ec0e466d48a84803eba02265f
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_01_01.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:4445c7cd262f72ab53a1ebed04f8ad512371ef660aa4c1b82dc7147c539c63fc
+size 383

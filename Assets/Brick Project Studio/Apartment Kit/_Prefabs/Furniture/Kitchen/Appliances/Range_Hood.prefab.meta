@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: add8565ea42029f4abfaa37c7dbe2abf
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 124055
-  packageName: Apartment Kit
-  packageVersion: 4.2
-  assetPath: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances/Range_Hood.prefab
-  uploadId: 594248
+version https://git-lfs.github.com/spec/v1
+oid sha256:002fca35e50ff00e08dff44f5b2e6170162661431a15e110f6ab1098ba261d4c
+size 391
