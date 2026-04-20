@@ -5,8 +5,9 @@ using UnityEngine.UI;
 public class EnemyHealth : MonoBehaviour
 {
     [Header("Health")]
-    public float maxHealth = 100f;
+    public float maxHealth = 3f; // Set to 3 for the 3-hit rule
     private float currentHealth;
+    public Button nextSceneButton; // Reference to the UI button
 
     [Header("World Space Health Bar")]
     public Slider healthBarSlider;
@@ -27,15 +28,21 @@ public class EnemyHealth : MonoBehaviour
     {
         currentHealth = maxHealth;
         UpdateHealthBar();
+        
+        // Ensure button is hidden at start
+        if (nextSceneButton != null) nextSceneButton.gameObject.SetActive(false);
     }
 
     public void TakeDamage(float amount)
     {
         if (isDead) return;
-        currentHealth -= amount;
+
+        // Force exactly 1 damage per hit to ensure a 3-hit down
+        currentHealth -= 1f; 
         currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
         UpdateHealthBar();
-        SpawnDamagePopup(amount);
+        SpawnDamagePopup(1f);
+
         Debug.Log($"[Enemy] {gameObject.name} HP: {currentHealth}/{maxHealth}");
         if (currentHealth <= 0f) Die();
     }
@@ -70,6 +77,18 @@ public class EnemyHealth : MonoBehaviour
     {
         isDead = true;
         Debug.Log($"[Enemy] {gameObject.name} defeated!");
+
+        // Show button and unlock cursor
+        if (nextSceneButton != null) {
+            nextSceneButton.gameObject.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+
+        // Disable movement if EnemyScript is also on this object
+        EnemyScript moveScript = GetComponent<EnemyScript>();
+        if (moveScript != null) moveScript.enabled = false;
+
         Destroy(gameObject, 0.5f);
     }
 }

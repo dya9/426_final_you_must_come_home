@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement; // Required for switching scenes
 
 public class DialogueTrigger : MonoBehaviour
 {
@@ -8,13 +9,14 @@ public class DialogueTrigger : MonoBehaviour
     public GameObject dialogueCanvas;
     public TextMeshProUGUI dialogueText;
     public Image panelImage;
-    public Button nextArrowButton; // Drag your Arrow Button here
+    public Button nextArrowButton; 
+    public Button nextSceneButton; // Drag your new "Next Scene" button here
 
     [Header("Colors")]
-    public Color marnieColor = new Color(0f, 0.5f, 1f, 0.6f);  // Blue
-    public Color rehemColor = new Color(1f, 0f, 0f, 0.6f);   // Red
-    public Color momColor = new Color(1f, 0.4f, 0.7f, 0.6f); // Pink
-    public Color entityColor = new Color(0f, 0f, 0f, 0.8f);  // Black
+    public Color marnieColor = new Color(0f, 0.5f, 1f, 0.6f);
+    public Color rehemColor = new Color(1f, 0f, 0f, 0.6f);
+    public Color momColor = new Color(1f, 0.4f, 0.7f, 0.6f);
+    public Color entityColor = new Color(0f, 0f, 0f, 0.8f);
 
     private int index = 0;
     
@@ -44,22 +46,30 @@ public class DialogueTrigger : MonoBehaviour
 
     void Start()
     {
-        // This shows the first line of dialogue as soon as the game opens
         index = 0;
+        
+        // Hide the next scene button at the start
+        if(nextSceneButton != null) nextSceneButton.gameObject.SetActive(false);
+
         ShowLine();
 
-        // Optional: Programmatically tell the arrow button to run AdvanceDialogue
         if (nextArrowButton != null)
-        {
             nextArrowButton.onClick.AddListener(AdvanceDialogue);
-        }
+
+        // Set up the next scene button click
+        if (nextSceneButton != null)
+            nextSceneButton.onClick.AddListener(LoadSophomoreScene);
     }
 
     void Update()
     {
-        if (dialogueCanvas.activeSelf && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.R)))
+        // Only allow space/R if we haven't reached the end yet
+        if (dialogueCanvas.activeSelf && index < dialogueLines.Length - 1)
         {
-            AdvanceDialogue();
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.R))
+            {
+                AdvanceDialogue();
+            }
         }
     }
 
@@ -70,10 +80,6 @@ public class DialogueTrigger : MonoBehaviour
         {
             ShowLine();
         }
-        else
-        {
-            dialogueCanvas.SetActive(false); 
-        }
     }
 
     void ShowLine()
@@ -82,9 +88,24 @@ public class DialogueTrigger : MonoBehaviour
         string currentLine = dialogueLines[index];
         dialogueText.text = currentLine;
 
+        // Change colors
         if (currentLine.StartsWith("Marnie")) panelImage.color = marnieColor;
         else if (currentLine.StartsWith("Rehem")) panelImage.color = rehemColor;
         else if (currentLine.StartsWith("Mom")) panelImage.color = momColor;
         else if (currentLine.StartsWith("Entity")) panelImage.color = entityColor;
+
+        // Check if this is the LAST line
+        if (index == dialogueLines.Length - 1)
+        {
+            // Hide the arrow, show the "Next Scene" button
+            if (nextArrowButton != null) nextArrowButton.gameObject.SetActive(false);
+            if (nextSceneButton != null) nextSceneButton.gameObject.SetActive(true);
+        }
+    }
+
+    void LoadSophomoreScene()
+    {
+        
+        SceneManager.LoadScene("Sophmore");
     }
 }
