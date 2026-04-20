@@ -13,3 +13,9 @@ Deeya - Made theme song for intro, first level theme song + enemy song
 
 Saanvi - Energy Drink Gulp sound
 
+Shaders 
+
+Deeya - Added custom shader to walls to make them darker
+
+Saanvi - added train scene shader, moving light effect + how it changed the other view of the train colors
+
