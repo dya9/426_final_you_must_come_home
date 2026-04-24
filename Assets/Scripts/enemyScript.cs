@@ -5,12 +5,13 @@
 // public class EnemyScript : MonoBehaviour
 // {
 //     [Header("Health & UI")]
-//     public float maxHealth = 100f;
+//     public float maxHealth = 3f; // Changed to 3 for the 3-hit rule
 //     private float currentHealth;
 //     public Slider healthBarSlider;
 //     public Image healthBarFill;
 //     public GameObject damagePopupPrefab;
 //     public float popupHeightOffset = 2.2f;
+//     public Button nextSceneButton; // Reference to the button on your canvas
 
 //     [Header("Health Bar Colors")]
 //     public Color fullHealthColor = Color.green;
@@ -41,6 +42,9 @@
 //         anim = GetComponent<Animator>();
 //         currentHealth = maxHealth;
         
+//         // Hide the button at the start of the level
+//         if (nextSceneButton != null) nextSceneButton.gameObject.SetActive(false);
+
 //         UpdateHealthBar();
 
 //         if (patrolPoints.Length > 0) {
@@ -51,6 +55,7 @@
 //     void Update() 
 //     {
 //         if (isDead || player == null) return;
+//         anim.SetBool("running", agent.velocity.magnitude > 0.1f);
 
 //         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
@@ -109,7 +114,7 @@
 //         lastAttackTime = Time.time;
 //         agent.isStopped = true;
 //         anim.SetBool("running", false);
-//         anim.SetTrigger("idle"); // Or "attack" if you have a specific attack trigger
+//         //anim.SetTrigger("idle"); 
 
 //         HealthManager health = player.GetComponent<HealthManager>();
 //         if (health != null) {
@@ -122,10 +127,13 @@
 //     public void TakeDamage(float amount)
 //     {
 //         if (isDead) return;
-//         currentHealth -= amount;
+        
+//         // Force the damage to be 1 so it always takes exactly 3 hits
+//         currentHealth -= 1f; 
+        
 //         currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
 //         UpdateHealthBar();
-//         SpawnDamagePopup(amount);
+//         SpawnDamagePopup(1f);
 
 //         if (currentHealth <= 0f) Die();
 //     }
@@ -150,17 +158,27 @@
 //         if (damagePopupPrefab == null) return;
 //         Vector3 spawnPos = transform.position + Vector3.up * popupHeightOffset;
 //         GameObject popup = Instantiate(damagePopupPrefab, spawnPos, Quaternion.identity);
-//         // Assumes your DamagePopup script has a Setup(float) method
 //         popup.GetComponent<DamagePopup>()?.Setup(amount);
 //     }
 
 //     void Die()
 //     {
 //         isDead = true;
-//         agent.isStopped = true; // Stop moving on death
-//         agent.enabled = false;   // Disable agent so it doesn't block others
-//         anim.SetTrigger("die");  // Assumes you have a "die" trigger in your Animator
-//         Destroy(gameObject, 2.0f); // Longer delay to allow death animation to play
+//         agent.isStopped = true; 
+//         agent.enabled = false;   
+//         anim.SetTrigger("die");  
+
+//         // Show the Next Scene button when the enemy is defeated
+//         if (nextSceneButton != null) {
+//             nextSceneButton.gameObject.SetActive(true);
+            
+//             // Unlocks cursor so player can actually click the button
+//             Cursor.lockState = CursorLockMode.None;
+//             Cursor.visible = true;
+//         }
+
+//         // We remove Destroy(gameObject) so the button stays visible 
+//         // (If the script is destroyed, the button logic might fail depending on setup)
 //     }
 // }
 
@@ -168,16 +186,18 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(NavMeshAgent))]
+[RequireComponent(typeof(Animator))]
 public class EnemyScript : MonoBehaviour
 {
     [Header("Health & UI")]
-    public float maxHealth = 3f; // Changed to 3 for the 3-hit rule
+    public float maxHealth = 3f;
     private float currentHealth;
     public Slider healthBarSlider;
     public Image healthBarFill;
     public GameObject damagePopupPrefab;
     public float popupHeightOffset = 2.2f;
-    public Button nextSceneButton; // Reference to the button on your canvas
+    public Button nextSceneButton; 
 
     [Header("Health Bar Colors")]
     public Color fullHealthColor = Color.green;
@@ -208,9 +228,8 @@ public class EnemyScript : MonoBehaviour
         anim = GetComponent<Animator>();
         currentHealth = maxHealth;
         
-        // Hide the button at the start of the level
+        // Setup UI
         if (nextSceneButton != null) nextSceneButton.gameObject.SetActive(false);
-
         UpdateHealthBar();
 
         if (patrolPoints.Length > 0) {
@@ -221,6 +240,9 @@ public class EnemyScript : MonoBehaviour
     void Update() 
     {
         if (isDead || player == null) return;
+
+        // Keep animator updated based on NavMesh velocity
+        anim.SetBool("running", agent.velocity.magnitude > 0.1f);
 
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
@@ -265,25 +287,23 @@ public class EnemyScript : MonoBehaviour
         agent.isStopped = false;
         agent.destination = patrolPoints[currentPointIndex].position;
         currentPointIndex = (currentPointIndex + 1) % patrolPoints.Length;
-        anim.SetBool("running", true);
     }
 
     void ChasePlayer() {
         isWaiting = false;
         agent.isStopped = false;
         agent.SetDestination(player.position);
-        anim.SetBool("running", true);
     }
 
     void AttackPlayer() {
         lastAttackTime = Time.time;
         agent.isStopped = true;
         anim.SetBool("running", false);
-        anim.SetTrigger("idle"); 
 
-        HealthManager health = player.GetComponent<HealthManager>();
-        if (health != null) {
-            health.TakeDamage();
+        // Assumes your player has a script called HealthManager
+        HealthManager playerHealth = player.GetComponent<HealthManager>();
+        if (playerHealth != null) {
+            playerHealth.TakeDamage();
         }
     }
 
@@ -293,12 +313,14 @@ public class EnemyScript : MonoBehaviour
     {
         if (isDead) return;
         
-        // Force the damage to be 1 so it always takes exactly 3 hits
+        // Force exactly 1 damage per hit for the 3-hit rule
         currentHealth -= 1f; 
-        
         currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
+        
         UpdateHealthBar();
         SpawnDamagePopup(1f);
+
+        Debug.Log($"[Enemy] Hit! Current HP: {currentHealth}");
 
         if (currentHealth <= 0f) Die();
     }
@@ -309,6 +331,7 @@ public class EnemyScript : MonoBehaviour
             healthBarSlider.maxValue = maxHealth;
             healthBarSlider.value = currentHealth;
         }
+
         if (healthBarFill != null) {
             float pct = currentHealth / maxHealth;
             if (pct > 0.5f)
@@ -323,26 +346,33 @@ public class EnemyScript : MonoBehaviour
         if (damagePopupPrefab == null) return;
         Vector3 spawnPos = transform.position + Vector3.up * popupHeightOffset;
         GameObject popup = Instantiate(damagePopupPrefab, spawnPos, Quaternion.identity);
+        
+        // Uses the Setup method from your DamagePopup script
         popup.GetComponent<DamagePopup>()?.Setup(amount);
     }
 
     void Die()
     {
+        if (isDead) return;
         isDead = true;
+
+        Debug.Log($"[Enemy] {gameObject.name} has died.");
+
+        // Stop AI
         agent.isStopped = true; 
         agent.enabled = false;   
+        
+        // Trigger Animation
         anim.SetTrigger("die");  
 
-        // Show the Next Scene button when the enemy is defeated
+        // Show UI & Unlock Mouse
         if (nextSceneButton != null) {
             nextSceneButton.gameObject.SetActive(true);
-            
-            // Unlocks cursor so player can actually click the button
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
 
-        // We remove Destroy(gameObject) so the button stays visible 
-        // (If the script is destroyed, the button logic might fail depending on setup)
+        // Optional: Destroy after 3 seconds to let animation finish
+        // Destroy(gameObject, 3f); 
     }
 }
