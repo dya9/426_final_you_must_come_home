@@ -3,14 +3,15 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    // Call this from your Main Menu button to go specifically to the cutscene
     public void StartGame()
     {
-        // loads the next scene after MainMenu in Build Settings
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("cutscene1");
     }
 
     public void LoadNextScene()
     {
+        // Keeps the index logic if you prefer, but "cutscene1" must be index 1
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
